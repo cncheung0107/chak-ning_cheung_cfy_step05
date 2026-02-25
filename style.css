@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b1a12;
+  color: #f2f2f2;
+  line-height: 1.6;
+}
+
+#page {
+  background-color: #0b1a12;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  border: 2px solid #2f5f45;
+  padding: 18px;
+  margin: 18px 0;
+  background-color: #10241a;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+  font-size: 36px;
+  color: #bfe8c7;
+}
+
+h2 {
+  margin: 18px 0 8px 0;
+  font-size: 22px;
+  color: #d4f2da;
+}
+
+p {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+a {
+  color: #9fe0ff;
+  word-break: break-word;
+}
+
+.box {
+  border: 2px solid #2f5f45;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #10241a;
+}
+
+ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+.note {
+  color: #bfe8c7;
+  font-size: 14px;
+}
+
+.label {
+  color: #ffd27a;
+  font-weight: 700;
+}
+
+.sep {
+  color: #cfe7d6;
+  padding: 0 6px;
+}
+
+/* Profile image under JACKIE CHAN PROFILE */
+.profile-image {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 12px auto 6px auto;
+  border: 3px solid #2f5f45;
+  padding: 4px;
+  background-color: #0b1a12;
+  border-radius: 10px;
+}
+
+/* Images */
+.image {
+  display: block;
+  width: 100%;
+  max-width: 780px;
+  border: 3px solid #2f5f45;
+  padding: 4px;
+  background-color: #0b1a12;
+  margin: 12px auto 6px auto;
+}
+
+/* At least one image must be centered and remain centered */
+.center-image {
+  display: block;
+  width: 100%;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #2f5f45;
+  padding: 4px;
+  background-color: #0b1a12;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+/* Captions */
+.caption {
+  margin: 0 auto 14px auto;
+  max-width: 780px;
+  font-size: 14px;
+  color: #cfe7d6;
+  text-align: center;
+  border-bottom: 1px solid #2f5f45;
+  padding-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 14px;
+  border: 2px solid #2f5f45;
+  background-color: #10241a;
+}
